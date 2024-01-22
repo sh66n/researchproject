@@ -1,0 +1,12 @@
+model-viewer{
+    height: 100%;
+}
+.row{
+    height: 100%;
+}
+.styled-col{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
