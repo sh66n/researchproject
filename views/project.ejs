@@ -12,30 +12,41 @@
     <div class="container-custom d-flex flex-column justify-content-center align-items-center">
         <%- include("./partials/navbar") %>
         <div class="row" id="row1">
-            <div class="col-6 text-white d-flex flex-column justify-content-center">
-                <h1 class="display-1">Our Ideas <br>& Implementations</h1>
+
+
+            <div class="col-12 col-xl-6 text-white d-flex flex-column justify-content-center align-items-center">
+                <h1 class="display-1 text-center">Our Ideas & Implementations</h1>
             </div>
-            <div class="col-3 d-flex flex-column justify-content-end">
-                <div class="card ">
+
+            
+            <div class="col-md-6 col-xl-3 d-flex flex-column justify-content-center align-items-center">
+                <div class="card d-flex flex-column justify-content-center">
                     <model-viewer id="glbAstro" class="card-img-top" camera-controls></model-viewer>
                     <div class="card-body">
-                      <h5 class="card-title">Space Suit</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="/project/astronaut" class="btn btn-primary d-flex text-center">View</a>
+                      <h5 class="card-title text-center">Space Suit</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur fugit, provident repellendus necessitatibus est amet perferendis eos placeat nesciunt tempore quae minima sapiente, corrupti quod culpa quaerat velit dolorum illum.</p>
+                      <div class="d-flex justify-content-center align-items-center">
+                        <a href="/project/astronaut" class="btn btn-primary d-flex justify-content-center btn-model">View</a>
+                    </div>
                     </div>
                 </div>
-                
             </div>
-            <div class="col-3 d-flex flex-column justify-content-start">
+
+
+            <div class="col-md-6 col-xl-3 d-flex flex-column justify-content-center align-items-center">
                 <div class="card">
                     <model-viewer id="glbPcb" class="card-img-top" camera-controls></model-viewer>
                     <div class="card-body">
-                      <h5 class="card-title">Micron Chip</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="/project/micronchip" class="btn btn-primary d-flex">View</a>
-                    </div>
+                      <h5 class="card-title text-center">Micron Chip</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis mollitia doloremque corporis nostrum quidem magnam quam, omnis aperiam, aliquam vero veniam dignissimos. Voluptates voluptate reprehenderit libero obcaecati pariatur asperiores iusto.</p>
+                      <div class="d-flex justify-content-center align-items-center">
+                          <a href="/project/micronchip" class="btn btn-primary d-flex justify-content-center btn-model">View</a>
+                      </div>
+                    </div>      
                   </div>
             </div>
+
+
         </div>
         <%- include ("./partials/footer") %>
     </div>
