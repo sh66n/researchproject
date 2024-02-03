@@ -22,6 +22,9 @@ app.get("/project/astronaut", (req, res)=>{
 app.get("/project/micronchip", (req, res)=>{
     res.render("pcb")
 })
+app.get("/project/micronchip/video", (req, res)=>{
+    res.render("pcbvideo")
+})
 app.get("/about", (req, res)=>{
     res.render("about")
 })

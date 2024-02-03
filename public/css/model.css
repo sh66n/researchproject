@@ -1,13 +1,17 @@
-model-viewer{
-    min-height: 100vh;
-    min-width: 100%;
+model-viewer {
+    min-height: 90vh;
 }
-.row{
-    min-height: 100vh;
-}
+
+
 .styled-col{
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 2rem;
-    margin-right: 2rem;
-    padding: 2rem;
+
+    background-color: #ffffff1a;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row {
+    max-width: 100vw;
+    min-height: 100vh;
 }
